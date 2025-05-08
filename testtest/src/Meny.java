@@ -15,7 +15,7 @@ public class Meny extends javax.swing.JFrame {
     /**
      * Creates new form Calculator
      */
-    private InfDB d;
+    private InfDB db;
     public Meny() {
         initComponents();
     }
