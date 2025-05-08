@@ -7,6 +7,6 @@
  *
  * @author rostykmalanchuk
  */
-public class newclass2 {
+public class Validering {
     
 }
