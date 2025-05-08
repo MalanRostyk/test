@@ -101,7 +101,16 @@ public class Meny extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        //if(Validering.kollaBokstavsKontroll()){}
+        if(Validering.bokstavsKontroll(jTextField1)){
+            try{
+                String id = jTextField1.getText();
+                String sqlFraga = "select Namn from medlem where Medlemsnummer = " + id;
+                String fraga = db.fetchSingle(sqlFraga);
+                jLabel3.setText(fraga);
+            }catch(InfException e){
+                JOptionPane.showMessageDialog(null, "något gick snett");
+            }
+        }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
