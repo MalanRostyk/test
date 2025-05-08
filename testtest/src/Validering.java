@@ -8,5 +8,11 @@
  * @author rostykmalanchuk
  */
 public class Validering {
+    public static boolean bokstavsKontroll(){
+    boolean resultat = true;
     
+    
+    
+    return resultat;
+}
 }
