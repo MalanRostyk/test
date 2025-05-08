@@ -7,7 +7,7 @@
  *
  * @author rostykmalanchuk
  */
-public class NewClass {
-    //hej
+public class Calculator {
+    private double siffra;
     
 }
