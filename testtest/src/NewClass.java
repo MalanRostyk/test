@@ -8,5 +8,6 @@
  * @author rostykmalanchuk
  */
 public class NewClass {
+    //hej
     
 }
